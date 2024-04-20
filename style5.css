@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #eee;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    padding-top: 25px;
+}
+#discription{
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    display: block;
+}
+#img-div{
+    background-color: white;
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-caption{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+#ul{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#last{
+    font-style: italic;
+}
+#co{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

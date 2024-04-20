@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <h1 id="title">Feedback Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <div class="container-name">
+        <label id="name-label">Name</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+    <div class="container">
+        <label id="email-label">Email</label><br>
+    <input type="email" id="email" placeholder="Enter your Email" required>
+    </div>
+    <div class="container">
+        <label id="number-label">Age(optional)</label><br>
+    <input type="number" id="number" placeholder="Age" min="10" max="99" required>
+    </div>
+    <div class="container">
+    <label>Is this the first time you have visited the website?</label><br>
+    <select id="dropdown">
+        <option selected disabled hidden>Enter Yes or No</option>
+        <option>Yes</option>
+        <option>No</option>
+    </select>
+    </div>
+    <div class="container">
+        <label>Would you recommend our website to your friend?</label><br>
+          <label><input type="radio" name="recommend" id="recommend-id" value="value">
+            <label>Definitely<br></label> 
+           <input type="radio" name="recommend" value="value">
+           <label>Maybe</label><br>
+           <input type="radio" name="recommend" value="value">
+           <label>Not sure</label><br>
+    </div>
+    <div class="container">
+    <label>Did you find what you needed?</label><br>
+    <input type="checkbox" value="value">Yes,all of it<br>
+    <input type="checkbox" value="value">Yes,some of it<br>
+    <input type="checkbox" value="value">No,none of it<br>
+    </div>
+    <div class="container">
+    <label>Any comments or suggestions?</label><br>
+    <textarea id="textarea" cols="3" rows="5" placeholder="Enter your comments here....." ></textarea>
+    </div>
+    <div class="container">
+        <button id="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
